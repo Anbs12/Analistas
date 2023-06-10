@@ -1,0 +1,106 @@
+.barra_Navegacion {
+    position: fixed;   /* Fija la posición del menú */
+    top: 0;           /* Fija el menú en la parte superior */
+    left: 0;          /* Alinea el menú a la izquierda */
+    width: 100%;      /* Establece el ancho del menú al 100% del contenedor */
+    background-color: #f2f2f2;   /* Color de fondo del menú */
+    z-index: 999;     /* Establece una posición de capa alta para el menú */
+    transition: background-color 0.3s ease;  /* Transición suave para el cambio de color de fondo */
+  }
+  
+  .barra_Navegacion ul {
+    list-style: none;   /* Elimina los puntos de lista del menú */
+    padding: 0;        /* Elimina el relleno interno del menú */
+    margin: 0;         /* Elimina los márgenes del menú */
+    display: flex;     /* Utiliza el modelo de caja flexible para los elementos del menú */
+  }
+  
+  .barra_Navegacion li {
+    margin-right: 10px;    /* Espacio entre los elementos del menú */
+  }
+  
+  .barra_Navegacion a {
+    display: block;       /* Convierte los enlaces en elementos de bloque */
+    color: #333;          /* Color del texto del enlace */
+    text-decoration: none;  /* Elimina la decoración de texto subrayado */
+    padding: 10px;        /* Espacio interno del enlace */
+    transition: color 0.3s ease;  /* Transición suave para el cambio de color de texto */
+  }
+  
+  .barra_Navegacion a:hover {
+    color: #ff0000;     /* Cambia el color del texto al pasar el mouse por encima */
+  }
+  
+  .transicion_Imgs {
+    overflow: hidden; /* Oculta las imágenes que exceden el tamaño del contenedor */
+  }
+  
+  .slider {
+    display: flex; /* Utiliza el modelo de caja flexible para los elementos del slider */
+    animation: deslizar 15s infinite; /* Aplica la animación al slider */
+  }
+  
+  @keyframes deslizar {
+    0% {
+      transform: translateX(0); /* Inicia desde la posición inicial */
+    }
+    100% {
+      transform: translateX(-100%); /* Se desplaza completamente hacia la izquierda */
+    }
+  }
+  
+  .slider img {
+    width: 100%; /* Ajusta el tamaño de las imágenes al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    object-fit: cover; /* Ajusta las imágenes para que cubran todo el espacio disponible */
+  }
+  
+  /* Estilos adicionales para el diseño */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 999;
+  }
+  
+  .content {
+    margin-top: 60px;
+  }
+  
+
+
+  
+
+.seccion_1{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: left;
+    border-block: 1px solid black;
+    
+}
+
+.aside{
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 20%;
+    float: right;
+    margin: right;
+    border-block: 1px solid black;
+    
+}
+
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    padding: 20px; /* Espacio interno del footer */
+    text-align: center; /* Alineación del texto al centro */
+  }
+  
+  .footer p {
+    margin: 0; /* Elimina los márgenes del párrafo */
+  }
+  
