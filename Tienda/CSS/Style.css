@@ -1,33 +1,57 @@
+/* --------------------------------------------------------------------------------*/
+/* Estilos del Index (inicio) abajo */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0; /*margen*/
+    padding: 0; /*relleno*/
+    box-sizing: border-box; /*tamaño de la caja*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
 }
 
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: #E3E6F3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+#header_Index {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    background: #E3E6F3; /*fondo del header*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
 }
 
-#navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#navbar_Index {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horizontalmente*/
 }
 
-#navbar li {
-    list-style: none;
-    padding: 0 20px;
+#navbar_Index li {
+    list-style: none; /*quitar viñetas*/
+    padding: 0 20px; /*espacio entre los elementos*/
 }
 
-#navbar li a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
+#navbar_Index li a {
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 16px; /*tamaño de la fuente*/
+    font-weight: 600; /*grosor de la fuente*/
+    color: #1a1a1a; /*color de la fuente*/
+}
+
+
+/* Estilos del Index (inicio) arriba */
+/* --------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.footer_container_Productos {
+    background: #E3E6F3; /*fondo del footer*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
 }
