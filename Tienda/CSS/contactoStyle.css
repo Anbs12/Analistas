@@ -1,12 +1,5 @@
 /* --------------------------------------------------------------------------------*/
-/* Estilos del Index (inicio) abajo */
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    padding-bottom: 3em;
-}
+/* Estilos del Contacto de la tienda  abajo */
 
 * {
     margin: 0; /*margen*/
@@ -15,11 +8,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
 }
 
-header{
-    height: 250px;
-}
-
-#header_Index {
+#header_Tienda_Contacto {
     display: flex; /*flexbox*/
     align-items: center; /*centrar verticalmente*/
     justify-content: space-between; /*espacio entre los elementos*/
@@ -27,28 +16,27 @@ header{
     background: #E3E6F3; /*fondo del header*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
     height: 190px; /*altura del header*/
-
 }
 
-#navbar_Index {
+#navbar_Tienda_Contacto {
     display: flex; /*flexbox*/
     align-items: center; /*centrar verticalmente*/
     justify-content: center; /*centrar horizontalmente*/
 }
 
-#navbar_Index li {
+#navbar_Tienda_Contacto li {
     list-style: none; /*quitar viñetas*/
     padding: 0 20px; /*espacio entre los elementos*/
 }
 
-#navbar_Index li a {
+#navbar_Tienda_Contacto li a {
     text-decoration: none; /*quitar subrayado*/
     font-size: 16px; /*tamaño de la fuente*/
     font-weight: 600; /*grosor de la fuente*/
     color: #1a1a1a; /*color de la fuente*/
 }
 
-#boton_NavbarIndex{
+#boton_NavbarContacto{
     background-color: #9ca9e0;
     border: none;
     color: #1a1a1a;
@@ -65,15 +53,15 @@ header{
     transition: transform 0.3s; /*transición*/
 }
 
-#boton_NavbarIndex:active {
+#boton_NavbarContacto:active {
     transform: scale(0.9);
-}
+  }
 
-#boton_NavbarIndex:hover {
+#boton_NavbarContacto:hover {
     transform: scale(1.1);
-}
+  }
 
-#boton_NavbarIndex_select {
+  #boton_NavbarContacto_select{
     background-color: #55e28b;
     border: 1p;
     color: #1a1a1a;
@@ -81,55 +69,36 @@ header{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 16px; 
     font-weight: 600;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s;
-    /*transición*/
+    transition: transform 0.3s; /*transición*/
 }
-
-#boton_NavbarIndex_select:active {
+#boton_NavbarContacto_select:active {
     transform: scale(0.9);
-}
+  }
 
-#boton_NavbarIndex_select:hover {
+#boton_NavbarContacto_select:hover {
     transform: scale(1.1);
-}
+  }
 
 
-.footer_container_Index {
+
+
+.footer_container_Contacto {
     background: #E3E6F3; /*fondo del footer*/
     padding: 20px 80px; /*espacio entre el contenido y el borde*/
     display: flex; /*flexbox*/
     justify-content: space-between; /*espacio entre los elementos*/
     align-items: center; /*centrar verticalmente*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
-    bottom: 0;
-}
-
-footer{
-    bottom: 0; /*para posicionar el footer todo el tiempo abajo*/
-    position: initial; /*posición absoluta*/
-    width: 100%; /*ancho de 100% en el espacio del footer*/
-    height: 80px;
 }
 
 
-/* Estilos del Index (inicio) arriba */
+
+
+/* Estilos del Contacto de la tienda  arriba */
 /* --------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-

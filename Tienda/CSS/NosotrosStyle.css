@@ -1,0 +1,29 @@
+/* --------------------------------------------------------------------------------*/
+/* Estilos de pagina Nosotros  abajo */
+
+
+
+
+
+
+
+.footer_container_Nosotros {
+    background: #E3E6F3; /*fondo del footer*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilos de pagina Nosotros  arriba */
+/* --------------------------------------------------------------------------------*/
