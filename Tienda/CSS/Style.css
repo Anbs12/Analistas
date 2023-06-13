@@ -1,6 +1,13 @@
 /* --------------------------------------------------------------------------------*/
 /* Estilos del Index (inicio) abajo */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    padding-bottom: 3em;
+}
+
 * {
     margin: 0; /*margen*/
     padding: 0; /*relleno*/
@@ -36,6 +43,23 @@
 }
 
 
+.footer_container_Index {
+    background: #E3E6F3; /*fondo del footer*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+    bottom: 0;
+}
+
+footer{
+    bottom: 0; /*para posicionar el footer todo el tiempo abajo*/
+    position: absolute; /*posición absoluta*/
+    width: 100%; /*ancho de 100% en el espacio del footer*/
+}
+
+
 /* Estilos del Index (inicio) arriba */
 /* --------------------------------------------------------------------------------*/
 
@@ -47,6 +71,116 @@
 
 
 
+
+
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos del Contacto de la tienda  abajo */
+
+* {
+    margin: 0; /*margen*/
+    padding: 0; /*relleno*/
+    box-sizing: border-box; /*tamaño de la caja*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
+}
+
+#header_Tienda_Contacto {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    background: #E3E6F3; /*fondo del header*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+}
+
+#navbar_Tienda_Contacto {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horizontalmente*/
+}
+
+#navbar_Tienda_Contacto li {
+    list-style: none; /*quitar viñetas*/
+    padding: 0 20px; /*espacio entre los elementos*/
+}
+
+#navbar_Tienda_Contacto li a {
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 16px; /*tamaño de la fuente*/
+    font-weight: 600; /*grosor de la fuente*/
+    color: #1a1a1a; /*color de la fuente*/
+}
+
+
+.footer_container_Contacto {
+    background: #E3E6F3; /*fondo del footer*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+}
+
+
+
+
+/* Estilos del Contacto de la tienda  arriba */
+/* --------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos del Productos  abajo */
+
+* {
+    margin: 0; /*margen*/
+    padding: 0; /*relleno*/
+    box-sizing: border-box; /*tamaño de la caja*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
+}
+
+#header_Productos {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    background: #E3E6F3; /*fondo del header*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+}
+
+#navbar_Productos {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horizontalmente*/
+}
+
+#navbar_Productos li {
+    list-style: none; /*quitar viñetas*/
+    padding: 0 20px; /*espacio entre los elementos*/
+}
+
+#navbar_Productos li a {
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 16px; /*tamaño de la fuente*/
+    font-weight: 600; /*grosor de la fuente*/
+    color: #1a1a1a; /*color de la fuente*/
+}
+
+
+
 .footer_container_Productos {
     background: #E3E6F3; /*fondo del footer*/
     padding: 20px 80px; /*espacio entre el contenido y el borde*/
@@ -55,3 +189,52 @@
     align-items: center; /*centrar verticalmente*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
 }
+
+/* Estilos del Productos  arriba */
+/* --------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos de pagina Nosotros  abajo */
+
+
+
+
+
+
+
+.footer_container_Nosotros {
+    background: #E3E6F3; /*fondo del footer*/
+    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilos de pagina Nosotros  arriba */
+/* --------------------------------------------------------------------------------*/
