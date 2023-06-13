@@ -42,6 +42,22 @@ body {
     color: #1a1a1a; /*color de la fuente*/
 }
 
+#boton_NavbarIndex{
+    background-color: #9ca9e0;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
 
 .footer_container_Index {
     background: #E3E6F3; /*fondo del footer*/
@@ -112,6 +128,22 @@ footer{
     color: #1a1a1a; /*color de la fuente*/
 }
 
+#boton_NavbarContacto{
+    background-color: #9ca9e0;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
 
 .footer_container_Contacto {
     background: #E3E6F3; /*fondo del footer*/
@@ -177,6 +209,22 @@ footer{
     font-size: 16px; /*tamaño de la fuente*/
     font-weight: 600; /*grosor de la fuente*/
     color: #1a1a1a; /*color de la fuente*/
+}
+
+#boton_NavbarProducto{
+    background-color: #9ca9e0;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
 
