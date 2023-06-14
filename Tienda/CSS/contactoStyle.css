@@ -8,6 +8,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
 }
 
+header{
+    height: 250px;
+}
+
 #header_Tienda_Contacto {
     display: flex; /*flexbox*/
     align-items: center; /*centrar verticalmente*/

@@ -8,6 +8,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fuente*/
 }
 
+header{
+    height: 250px;
+}
+
 #header_Productos {
     display: flex; /*flexbox*/
     align-items: center; /*centrar verticalmente*/
@@ -38,34 +42,38 @@
     height: 190px; /*altura del header*/
 }
 
+/* animacion botones*/	
+
 #boton_NavbarProducto{
-    background-color: #9ca9e0;
-    border: none;
-    color: #1a1a1a;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px; 
-    font-weight: 600;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    background-color: #9ca9e0; /*color de fondo*/
+    border: none; /*quitar borde*/
+    color: #1a1a1a;     /*color de la fuente*/
+    padding: 15px 32px; /*espacio entre el contenido y el borde*/
+    text-align: center; /*alinear texto al centro*/
+    text-decoration: none; /*quitar subrayado*/
+    display: inline-block; /*mostrar como bloque*/
+    font-size: 16px;  /*tamaño de la fuente*/
+    font-weight: 600; /*grosor de la fuente*/
+    margin: 4px 2px; /*espacio entre los elementos*/
+    cursor: pointer; /*cursor*/
+    border-radius: 12px; /*borde redondeado*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /*sombras*/
     transition: transform 0.3s; /*transición*/
 }
 #boton_NavbarProducto:active {
-    transform: scale(0.9);
+    transform: scale(0.9); /*tamaño del botón*/
   }
 
 #boton_NavbarProducto:hover {
-    transform: scale(1.1);
-  }
+    transform: scale(1.1); /*tamaño del botón*/
+}
+
+/* animacion boton seleccionado con color distinto para saber en que pagina estas parado*/	
 
 #boton_NavbarProducto_select{
-    background-color: #55e28b;
-    border: 1p;
-    color: #1a1a1a;
+    background-color: #55e28b; /*color de fondo*/
+    border: 1p; /*tamaño borde*/
+    color: #1a1a1a;    /*color de la fuente*/
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -86,25 +94,65 @@
     transform: scale(1.1);
   }
 
+.section_1{
+    background-color: #7f8fa6;
+    padding: 50px;
+    float: right;
+    width: 70%; 
+    height: 50%;
+    
+}
+
+.paginacion{
+    background-color: #7f8fa6;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
 
 
-.footer_container_Productos {
+.items {
+    float: left;
+    float: inline-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/	
+footer {
     background: #E3E6F3; /*fondo del footer*/
     padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    width: 100%; /*ancho*/
+    height: auto;
     display: flex; /*flexbox*/
-    justify-content: space-between; /*espacio entre los elementos*/
     align-items: center; /*centrar verticalmente*/
+    justify-content: space-between; /*espacio entre los elementos*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+
 }
 
-.prueba{
-    background-color: aqua;
-    width: 4000px;
-    height: 410px;
-    border-color: black;
-    border-style: solid;
-    border-width: 5px;
-}
+
+
+
 
 /* Estilos del Productos  arriba */
 /* --------------------------------------------------------------------------------*/
