@@ -32,6 +32,7 @@
 
 
 
+        <!-- Cabecera con menu con direccion a las distintas paginas del entorno-->
     <header>
 
         <section id="header_Productos">
@@ -48,102 +49,127 @@
         </section>
 
     </header>
+    <br>
 
 
-    <div class="div_section">
-        <section class="section_1">
+    <!-- Contenedor con ASIDE y los productos en SECTION-->
+    <div class="container">
 
-        <div class="card-group">
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
+      <!--Barra lateral estilo menu -->
+      <aside class="barraLateral">
+        <div class="columna">
+          <h4> ¿Que busca? </h4>
+          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+            <a class="p-1 rounded" href="#simple-list-item-1">Bolsas de basura</a>
+            <a class="p-1 rounded" href="#simple-list-item-1">Detergente líquido</a>
+            <a class="p-1 rounded" href="#simple-list-item-2">Escobillas</a>
+            <a class="p-1 rounded" href="#simple-list-item-3">Escobillones</a>
+            <a class="p-1 rounded" href="#simple-list-item-4">Lavalozas</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">Trapero</a>
+            <a class="p-1 rounded" href="#simple-list-item-1">Trapero Premium</a>
+            <a class="p-1 rounded" href="#simple-list-item-1">Escobillon electrico</a>
+            <a class="p-1 rounded" href="#simple-list-item-2">Aspiradoras</a>
+            
           </div>
-          <br>
-          <div class="card-group">
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="Imgs/escobillones_1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
+      
+      </aside>
 
-    </section>
+      <!--Productos de primera columna ---------------->
+
+      <section class="productos">
+
+        <div class="producto1">
+          <img src="Imgs/escobillones_1.png" id="imgProducto">
+          <h3>Producto 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 4</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 7</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+      
+      
+      </section>
+
+      <!--Productos de segunda columna ----------------->
+  
+      <section class="productos">
+        <div class="producto1">
+          <img src="Imgs/escobillones_1.png" id="imgProducto">
+          <h3>Producto 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 8</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+  
+      </section>
+
+      <!--Productos de tercera columna ----------------->
+
+      <section class="productos">
+        <div class="producto1">
+          <img src="Imgs/escobillones_1.png" id="imgProducto">
+          <h3>Producto 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 6</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="producto1">
+          <img src="Imgs/lavaloza_2.jpg" id="imgProducto">
+          <h3>Producto 9</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <a href="#">Ver más</a>
+        </div>
+  
+      </section>
+
+
     </div>
-    
 
-    <aside class="items">
-        <div class="col-4">
-            <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-              <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
-              <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
-              <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
-              <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
-              <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
-            </div>
-
-    </aside>
     
 
 
-
-
-
-
-    <div class="div_paginacion">
+    <!--Indexsacion de numeros de pagina debajo del container o productos----------------->
+    <div class="paginacion">
     <section class="paginacion">
         <nav aria-label="Page navigation example">
             <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
               <li class="page-item"><a class="page-link" href="#">1</a></li>
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
             </ul>
           </nav>
     </section>
     </div>
 
-
+    <!--Pie de pagina con informacion de derechos y creadores----------------->
     <footer>
             <p>© Derechos Reservados 2023</p>
             <p> Creadores: Antonella Nattino</p>
