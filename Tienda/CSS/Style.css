@@ -5,8 +5,12 @@
     height: 100px;
 }
 
-body {
-    background-color: #2a87b2
+body{
+    background-image: url(../Imgs/FondoImagenTransparente_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* --------------------------------------------------------------------------------*/
@@ -31,6 +35,10 @@ body {
     position: sticky;
     top: 0;
     left: 0;
+}
+
+.logo{
+    height: 85px;
 }
 
 /* --------------------------------------------------------------------------------*/
@@ -102,6 +110,7 @@ body {
     width: 100%;
     height: 80px;
     padding: 20px 80px;
+    /*espacio entre el contenido y el borde*/
 }
 
 .footer_container_Index {
@@ -196,7 +205,7 @@ body {
     padding: 20px;
     margin-bottom: 10px;
     /* Modificar el valor del margen inferior */
-    background-color: #f5f5f5;
+    background-color: rgb(243, 241, 241); /* Cambia el último valor (0.5) para ajustar la transparencia */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -310,6 +319,10 @@ textarea:required:focus {
     box-shadow: 0 0 5px #ff0000;
 }
 
+.espacio_Contacto{
+    margin-top: 300px;
+}
+
 .footer_container_Contacto {
     background: #E3E6F3;
     padding: 20px 80px;
@@ -319,7 +332,7 @@ textarea:required:focus {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
-
+/* --------------------------------------------------------------------------------*/
 
 
 
@@ -426,7 +439,7 @@ textarea:required:focus {
 }
 
 .productos {
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0); /* Cambia el último valor (0.5) para ajustar la transparencia */
     padding: 20px;
     margin-left: 0px;
 }
@@ -487,12 +500,38 @@ textarea:required:focus {
 
 
 
-
-
-
-
-
-
-
 /* --------------------------------------------------------------------------------*/
 /* Estilos de pagina Nosotros  abajo */
+
+
+
+.container_QuienesSomos{
+    display: flex;
+    /*flexbox*/
+    justify-content: space-between;
+    /*espacio entre los elementos*/
+    align-items: center;
+    /*alinear elementos al centro*/
+    padding: 20px;
+    /*espacio entre el contenido y el borde*/
+    margin: 20px;
+    /*espacio entre los elementos*/
+    background-color: #f5f5f5;
+    /*color de fondo*/
+}
+
+.section_QuienesSomos{
+    padding-left: 15px;
+}
+
+.img_QuienesSomos{
+    width: 50%;
+    height: 319px;
+
+
+
+    /*flexbox*/
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+}
