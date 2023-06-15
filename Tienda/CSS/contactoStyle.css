@@ -1,206 +1,108 @@
-/* --------------------------------------------------------------------------------*/
-/* Estilos del Contacto de la tienda  abajo */
-
-* {
-    margin: 0;
-    /*margen*/
-    padding: 0;
-    /*relleno*/
-    box-sizing: border-box;
-    /*tamaño de la caja*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*fuente*/
-}
-
-header {
-    height: 100px;
-}
-
-#header_Tienda_Contacto {
+/* Estilos del header */
+#header_Index {
     display: flex;
-    /*flexbox*/
     align-items: center;
-    /*centrar verticalmente*/
     justify-content: space-between;
-    /*espacio entre los elementos*/
     padding: 20px 80px;
-    /*espacio entre el contenido y el borde*/
     background: #E3E6F3;
-    /*fondo del header*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    /*sombra*/
-    height: 190px;
-    /*altura del header*/
+    height: 80px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
-#navbar_Tienda_Contacto {
+#navbar_Index {
     display: flex;
-    /*flexbox*/
     align-items: center;
-    /*centrar verticalmente*/
-    justify-content: center;
-    /*centrar horizontalmente*/
 }
 
-#navbar_Tienda_Contacto li {
+#navbar_Index li {
     list-style: none;
-    /*quitar viñetas*/
     padding: 0 20px;
-    /*espacio entre los elementos*/
 }
 
-#navbar_Tienda_Contacto li a {
+#navbar_Index li a {
     text-decoration: none;
-    /*quitar subrayado*/
-    font-size: 16px;
-    /*tamaño de la fuente*/
+    font-size: 15px;
     font-weight: 600;
-    /*grosor de la fuente*/
-    color: #1a1a1a;
-    /*color de la fuente*/
+    color: #032a64;
 }
 
-#boton_NavbarContacto {
-    background-color: #9ca9e0;
-    border: none;
-    color: #1a1a1a;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s;
-    /*transición*/
-}
-
-#boton_NavbarContacto:active {
-    transform: scale(0.9);
-}
-
-#boton_NavbarContacto:hover {
-    transform: scale(1.1);
-}
-
-#boton_NavbarContacto_select {
-    background-color: #55e28b;
-    border: 1p;
-    color: #1a1a1a;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s;
-    /*transición*/
-}
-
-#boton_NavbarContacto_select:active {
-    transform: scale(0.9);
-}
-
-#boton_NavbarContacto_select:hover {
-    transform: scale(1.1);
-}
-
-.contacto-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.contacto-form label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.contacto-form input,
-.contacto-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.contacto-form button {
-    background-color: #4caf50;
+#navbar_Index li.active a {
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .contacto-form {
+#navbar_Index li.active button {
+    background-color: #9ccae0;
+    color: #fff;
+}
+
+/* Estilos del formulario de contacto */
+#contact-form {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .contacto-form label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .contacto-form input,
-  .contacto-form textarea {
-    width: 100%;
-    padding: 10px;
+}
+
+.form-group {
     margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  .contacto-form button {
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
     background-color: #4caf50;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
-  }
-  
-  .contacto-form button:hover {
+    transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
     background-color: #45a049;
-  }
+}
+
+input:required,
+select:required,
+textarea:required {
+    border-color: #ff0000;
+}
+
+input:required:focus,
+select:required:focus,
+textarea:required:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+}
 
 .footer_container_Contacto {
     background: #E3E6F3;
-    /*fondo del footer*/
     padding: 20px 80px;
-    /*espacio entre el contenido y el borde*/
     display: flex;
-    /*flexbox*/
     justify-content: space-between;
-    /*espacio entre los elementos*/
     align-items: center;
-    /*centrar verticalmente*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    /*sombra*/
 }
-
-
-
-
-/* Estilos del Contacto de la tienda  arriba */
-/* --------------------------------------------------------------------------------*/
