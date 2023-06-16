@@ -3,7 +3,7 @@
 body {
     background-color: #b22a2a
 }
-
+/*----------------------------PROBANDO NUEVA RAMA*/
 /* --------------------------------------------------------------------------------*/
 /* Estilos del Header (inicio)*/
 
@@ -404,6 +404,7 @@ textarea:required:focus {
     border-width: 1px;
 }
 
+<<<<<<< HEAD
 .muchasGracias{
     text-align: center;
 
@@ -412,3 +413,10 @@ textarea:required:focus {
 
 /* Estilos de pagina Nosotros  arriba */
 /* --------------------------------------------------------------------------------*/
+=======
+.img_QuienesSomos_Derecha{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+>>>>>>> main2
