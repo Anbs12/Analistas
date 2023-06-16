@@ -414,19 +414,13 @@ textarea:required:focus {
     border-width: 1px;
 }
 
-<<<<<<< HEAD
-.muchasGracias{
-    text-align: center; /* alinear imagen al centro de muchas gracias*/
-
-}
-
-
-/* Estilos de pagina Nosotros  arriba */
-/* --------------------------------------------------------------------------------*/
-=======
 .img_QuienesSomos_Derecha{
     float: right;
     width: 50%;
     padding-left: 10px;
 }
->>>>>>> main2
+
+
+.muchasGracias{
+    text-align: center;
+}
