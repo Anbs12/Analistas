@@ -274,6 +274,12 @@ textarea:required:focus {
     box-shadow: 0 0 5px #ff0000;
 }
 
+/*espacio para que el footer baje*/
+.espacio_Contacto{
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
 /* --------------------------------------------------------------------------------*/
 /* Estilos de Productos */
 
@@ -384,7 +390,7 @@ textarea:required:focus {
     font-style: italic;
 }
 
-.section_QuienesSomos p{
+.section_QuienesSomos article{
     font-size: 22px;
     color: #1a1a1a;
     font-family: '';
