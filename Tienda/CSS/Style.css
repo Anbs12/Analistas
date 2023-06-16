@@ -273,6 +273,12 @@ textarea:required:focus {
     box-shadow: 0 0 5px #ff0000;
 }
 
+/*espacio para que el footer baje*/
+.espacio_Contacto{
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
 /* --------------------------------------------------------------------------------*/
 /* Estilos de Productos */
 
