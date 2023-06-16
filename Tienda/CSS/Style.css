@@ -367,6 +367,29 @@ textarea:required:focus {
 
 .section_QuienesSomos{
     padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section_QuienesSomos h1{
+    font-size: 41px;
+    color: #3fb4eb;
+    font-family: '';
+    font-style: italic;
+}
+
+.section_QuienesSomos p{
+    font-size: 22px;
+    color: #1a1a1a;
+    font-family: '';
+    font-style: italic;
+}
+
+#imagen3{
+    width: 419px;
+    height: 319px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .img_QuienesSomos{
@@ -380,3 +403,12 @@ textarea:required:focus {
     border-style: solid;
     border-width: 1px;
 }
+
+.muchasGracias{
+    text-align: center;
+
+}
+
+
+/* Estilos de pagina Nosotros  arriba */
+/* --------------------------------------------------------------------------------*/
