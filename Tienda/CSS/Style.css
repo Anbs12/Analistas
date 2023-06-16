@@ -383,7 +383,7 @@ textarea:required:focus {
     font-style: italic;
 }
 
-.section_QuienesSomos p{
+.section_QuienesSomos article{
     font-size: 22px;
     color: #1a1a1a;
     font-family: '';
