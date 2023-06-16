@@ -365,6 +365,19 @@ textarea:required:focus {
     /*color de fondo*/
 }
 
+.section_QuienesSomos_izquierda{
+    display: flex;
+    justify-content: space-between;
+    /*espacio entre los elementos*/
+    align-items: center;
+    /*alinear elementos al centro*/
+    padding: 20px;
+    /*espacio entre el contenido y el borde*/
+    margin: 20px;
+    /*espacio entre los elementos*/
+    background-color: #f5f5f5;
+}
+
 .section_QuienesSomos{
     padding-left: 15px;
     padding-right: 15px;
@@ -404,6 +417,7 @@ textarea:required:focus {
     border-width: 1px;
 }
 
+<<<<<<< Updated upstream
 .muchasGracias{
     text-align: center;
 
@@ -412,3 +426,10 @@ textarea:required:focus {
 
 /* Estilos de pagina Nosotros  arriba */
 /* --------------------------------------------------------------------------------*/
+=======
+.img_QuienesSomos_Derecha{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+>>>>>>> Stashed changes
