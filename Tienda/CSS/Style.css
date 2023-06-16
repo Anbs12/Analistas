@@ -78,33 +78,33 @@ body {
 /* --------------------------------------------------------------------------------*/
 /* Estilos footer*/
 
+/* */
 .footer_container {
     display: flex;
     justify-content: space-between; /*espacio entre los elementos*/
     text-align: center; /*alinear el texto al centro*/
     align-items: center; /*centrar verticalmente*/
-    padding: 10px; /*espacio entre el contenido y el borde*/
-    background-color: #E3E6F3;  /*fondo del footer*/
+    padding: 0px; /*espacio entre el contenido y el borde*/
     font-size: 14px;     /*tamaño de la fuente*/
     position: static; /*posición del footer*/
     width: 100%; /*ancho del footer*/
     height: 80px; /*altura del footer*/
-    padding: 20px 80px; /*espacio entre el contenido y el borde*/
+    padding: 10px 20px; /*espacio entre el contenido y el borde*/
 }
 
 .footer_container {
     display: flex; /*flexbox*/
     align-items: center; /*centrar verticalmente*/
-    justify-content: space-between; /*espacio entre los elementos*/
-    padding: 10px; /*espacio entre el contenido y el borde*/
+    justify-content: center; /*espacio entre los elementos*/
+    flex-wrap: wrap;
 }
 
 .footer_container p:first-child {
-    margin-right: 10px; /*espacio entre los elementos*/
+    margin-right: 20%; /*espacio entre los elementos*/
 }
 
 .footer_container p:last-child {
-    margin-left: auto; /*espacio entre los elementos*/
+    margin-left: 20%; /*espacio entre los elementos*/
 }
 
 /* --------------------------------------------------------------------------------*/
@@ -128,6 +128,7 @@ body {
     height: 30px; /*altura de la imagen*/
     justify-content: left; /*espacio entre los elementos*/
 }
+
 
 
 /* --------------------------------------------------------------------------------*/
